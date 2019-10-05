@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="menu">
+        Калькулятор массы арматуры
+      </div>
+    </div>
+  </header>
+
+  <div class="counter">
+    <div class="container">
+      <div class="counter-wrap">
+        <div class="diam">
+          <div class="title">
+            Диаметр арматуры
+          </div>
+          <div class="choise-diam">
+            <select class="select">
+              <div class="select-wrapper">
+                <option class="option" value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="14">14</option>
+                <option value="16">16</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="28">28</option>
+              </div>
+            </select>
+          </div>
+          <!-- /.choise-diam -->
+        </div>
+        <div class="amount">
+          <div class="title">
+            Длина стержня
+          </div>
+          <!-- /.amount-title -->
+          <div class="amount-wrap">
+            <input class="amount-input" type="text">
+          </div>
+        </div>
+        <!-- /.counter-wrap -->
+        <div class="number">
+          <div class="title">
+            Количество стержней
+          </div>
+          <div class="number-wrap">
+            <input class="number-input" type="text">
+          </div>
+        </div>
+      </div>
+      <div class="total-wrap">
+        <button class="total-btn">
+          Рассчитать
+        </button>
+        <div class="total">
+          Итого
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- /.counter -->
+</body>
+
+<script src="main.js"></script>
+</html>
